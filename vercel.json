@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd ecommerce-flow && npm run build",
+  "outputDirectory": "ecommerce-flow/build",
+  "installCommand": "cd ecommerce-flow && npm install",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
